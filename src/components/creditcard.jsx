@@ -5,9 +5,9 @@ const Creditcard = () => {
     const { credit, name, date } = useContext(creditContext)
     return (
         <div>
-            <img src='/images/bg-card-front.png' className='relative md:w-full w-[80%]' />
+            <img src='/images/bg-card-front.png' className='relative md:w-full w-[80%]' alt='Credit Card front' />
             <div className='absolute top-[15px] left-[20px]'>
-                <img src='/images/card-logo.svg' className='w-[80%]' />
+                <img src='/images/card-logo.svg' className='w-[80%]' alt='creditcard logo' />
             </div>
             <div className='absolute bottom-[50px] px-5'>
                 <h1 className='text-white md:text-2xl tracking-wider uppercase'>{credit}</h1>
